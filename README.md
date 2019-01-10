@@ -1,12 +1,14 @@
 ### PHP_SOCKET实例
 ---
 
-##### <font color=#009944 size=2>实例操作</font>
+##### 实例操作
 ---
 
 1、先使用命令行模式运行socket_server.php,如果运行报错请检查php是否在环境变量中。
 
 2、然后运行socket_client.php、socket_client1.php就看看到socket通讯建立。
+
+注意：运行文件之前请检查你的php是否已经安装sockets扩展(在php.ini中查看extension=php_sockets.dll或者在phpinfo中查看) 。
 
 ---
 
